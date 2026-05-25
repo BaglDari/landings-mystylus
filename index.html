@@ -17,6 +17,20 @@
    visibility: hidden !important;
 }
 </style>
+<style>
+  /* Fix: hero image aligns top-right, no overflow */
+  .section.padding.img {
+    background-position: right top !important;
+    background-image: url('images/Group-2083_1.jpg') !important;
+    overflow: hidden;
+  }
+  /* Fix: review avatars — round crop, object-fit cover */
+  .img-face {
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    object-position: center top !important;
+  }
+</style>
 </head>
 <body class="body">
   <div class="w-embed">
